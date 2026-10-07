@@ -20,6 +20,7 @@
 .success-criteria{border-top:1px solid #c8d2c3;margin-top:22px;padding-top:15px;max-width:440px}
 .success-criteria>span{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--teal);font-weight:650}
 .success-criteria p{font-size:12px;margin-top:6px;line-height:1.75}
+.success-criteria>.scope-label{display:block;margin-top:16px}
 .evolution-card{display:flex;flex-direction:column}
 .evolution-card>p:not(.card-problem){flex:1;margin-bottom:18px}
 .evolution-card .card-result{margin-top:0}
