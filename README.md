@@ -10,7 +10,7 @@ Open `index.html` in a browser, or serve this directory locally:
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-No build step, dependencies, external fonts, analytics, API keys, or backend are required.
+No build step, external fonts, API keys, or backend are required. Aggregate page analytics use Umami Cloud.
 
 ## Edit
 
@@ -33,3 +33,7 @@ Selected recurring, less consequential themes became eligible for auto-approval 
 ## October 10, 2026 clarification
 
 The four-dimension monitoring rubric is distinct from learning-approval history and quiz output testing. Fifteen manually scored anchors, historical replay, one-week parallel comparison, and source audits every two weeks are operating practices, without a measured quality uplift or model retraining claim. The corrected 30+ installation count is for the Claude planning skill, shared across roughly 100 people in R&D; the approximately eight-to-two-day result includes shared workflows and engineering collaboration. The 61% result remains a separate team outcome. `soul.md` and Calvin-bot describe generalized working context; no private context files are exposed.
+
+## Portfolio page analytics
+
+`analytics.js` loads Umami Cloud only on the published `calvin-chow-pm.github.io` domain and only in top-level pages. Both portfolios use one website ID, with per-page views, visits, and visitor estimates in the Umami dashboard. Local previews and embedded prototypes do not send analytics. Query strings and anchors are excluded from page grouping. Demo interaction events remain separate and are not sent to Umami. Tracking begins with installation; earlier traffic is unavailable.
