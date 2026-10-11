@@ -29,3 +29,7 @@ After content and design review, use a feature branch and pull request. GitHub P
 Diagrams are reconstructions, and company/customer descriptions are generalized. The outcomes come from Calvin's confirmed account. The preparation-time comparison is approximate and observational; story cycle time is a broader team result with multiple contributors. Fewer repeated mistakes is qualitative. The scale-feature monetization strategy is a recommendation rather than an observed revenue outcome.
 
 Selected recurring, less consequential themes became eligible for auto-approval only after explicit authorization and a month-plus of 100% historical manual approval. The confidence routes are a visual explanation, not an implemented approval engine. Core workflows and usage collection were live; value-aligned limits remain future direction.
+
+## October 10, 2026 clarification
+
+The four-dimension monitoring rubric is distinct from learning-approval history and quiz output testing. Fifteen manually scored anchors, historical replay, one-week parallel comparison, and source audits every two weeks are operating practices, without a measured quality uplift or model retraining claim. The 50+ installation count is for the Claude planning skill; the approximately eight-to-two-day result includes shared workflows and engineering collaboration. The 61% result remains a separate team outcome. `soul.md` and Calvin-bot describe generalized working context; no private context files are exposed.
