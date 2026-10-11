@@ -11,7 +11,7 @@
 [hidden]{display:none!important}
 .header-label{font-size:11px;color:var(--muted);letter-spacing:.3px}
 .chapter-nav{padding-bottom:26px}
-.chapter-nav ol{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;list-style:none;margin:0;padding:20px 0 0;border-top:1px solid var(--line)}
+.chapter-nav ol{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;list-style:none;margin:0;padding:20px 0 0;border-top:1px solid var(--line)}
 .chapter-nav a{display:flex;align-items:center;gap:10px;font-size:14px;padding:8px 0;font-weight:500}
 .chapter-nav a>span{font-size:11px;color:var(--teal);font-weight:650}
 .hero-inputs>div{border:1px solid var(--line);padding:11px 12px;border-radius:4px;background:var(--paper)}
@@ -111,10 +111,23 @@
 
 .section-label .example-subtitle{display:block;margin-top:5px;font-size:16px;line-height:1.5;font-weight:500}
 
-.evaluation-detail{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:30px}.evaluation-detail>div{border-top:2px solid var(--teal);padding-top:18px}.evaluation-detail h3{margin:12px 0}.evaluation-detail p:not(.eyebrow){font-size:14px;line-height:1.8;margin-bottom:16px}.evaluation-detail a{font-size:14px;color:var(--teal)}.planning-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.planning-flow article{border:1px solid var(--line);background:var(--white);border-radius:6px;padding:24px}.planning-flow .engineering-partner{background:var(--gold-soft);border-color:#dfcbb3}.planning-flow h3{margin:12px 0}.planning-flow p:not(.eyebrow){font-size:14px;line-height:1.8}.skill-adoption{font-size:14px;padding:20px 0;border-bottom:1px solid var(--line)}.skill-adoption strong{color:var(--ink)}code{overflow-wrap:anywhere}@media(max-width:700px){.evaluation-detail,.planning-flow{grid-template-columns:1fr}.evaluation-detail{gap:24px}}
+.planning-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.planning-flow article{border:1px solid var(--line);background:var(--white);border-radius:6px;padding:24px}.planning-flow .engineering-partner{background:var(--gold-soft);border-color:#dfcbb3}.planning-flow h3{margin:12px 0}.planning-flow p:not(.eyebrow){font-size:14px;line-height:1.8}.skill-adoption{font-size:14px;padding:20px 0;border-bottom:1px solid var(--line)}.skill-adoption strong{color:var(--ink)}code{overflow-wrap:anywhere}@media(max-width:700px){.planning-flow{grid-template-columns:1fr}}
 
 .planning-flow{grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr);gap:12px}.planning-flow .flow-arrow{align-self:center;text-align:center;color:var(--teal);font-size:22px;line-height:1;font-weight:400;opacity:.75}@media(max-width:700px){.planning-flow{grid-template-columns:minmax(0,1fr);gap:14px}.planning-flow .flow-arrow{justify-self:center;transform:rotate(90deg)}}
 
-.planning-section{padding-bottom:24px}.planning-section + .decision-section{padding-top:24px}
+.planning-section{padding-top:28px;padding-bottom:28px}.decision-section{padding-bottom:24px}
 
 .agent-team-handoff{border-top:1px solid var(--line);padding-top:30px;padding-bottom:36px;display:flex;align-items:center;justify-content:space-between;gap:30px}.agent-team-handoff>div{max-width:700px}.agent-team-handoff h2{font-size:clamp(26px,3vw,34px);margin:12px 0}.agent-team-handoff p:not(.eyebrow){font-size:14px}.agent-team-handoff>.button{flex-shrink:0}@media(max-width:700px){.agent-team-handoff{flex-direction:column;align-items:flex-start;gap:20px}}
+
+.evaluation-link{padding:0 26px 22px}.evaluation-link .text-link{color:var(--teal);line-height:1.7}@media(max-width:700px){.evaluation-link{padding:0 22px 22px}}
+
+/* Separate certification outcomes from system and team impact. */
+.certification-outcomes{display:grid;grid-template-columns:.8fr 1.3fr 1fr;gap:28px;padding:24px 0;border-bottom:1px solid var(--line)}
+.certification-outcomes-intro>p:not(.eyebrow){font-size:12px;line-height:1.7;margin-top:10px}
+.certification-metric strong{display:block;font-family:var(--serif);font-size:clamp(24px,2.6vw,34px);font-weight:400;line-height:1.25;color:var(--ink)}
+.certification-metric strong>span{color:var(--teal)}
+.certification-metric strong>small{font-family:var(--sans);font-size:14px}
+.certification-metric h3{font-size:14px;margin:10px 0 6px}
+.certification-metric p{font-size:12px;line-height:1.7}
+@media(min-width:701px) and (max-width:1000px){.chapter-nav ol{grid-template-columns:repeat(3,1fr)}.certification-outcomes{grid-template-columns:1fr 1fr}.certification-outcomes-intro{grid-column:1/-1}}
+@media(max-width:700px){.certification-outcomes{grid-template-columns:1fr;gap:20px}.certification-metric strong{font-size:32px}.planning-section{padding-top:24px;padding-bottom:24px}}
