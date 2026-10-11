@@ -2,9 +2,9 @@
 const stepContent = {
   capture: { kicker: '01 / Auto-capture', title: 'Notice what is worth remembering.', body: 'Each session automatically captures proposed insights: corrections, decisions and their reasoning, recurring assumptions, and relevant constraints. I can also invoke learning capture mid-session.' },
   stage: { kicker: '02 / Stage', title: 'Collect proposals before changing the system.', body: 'Captured insights are logged as proposed learnings. A weekly prompt brings learnings requiring manual review back to me. Eligible themes can follow the auto-approval rules I explicitly authorized.' },
-  review: { kicker: '03 / Review & approve', title: 'Automate selectively. Review where it matters.', body: 'I set the approval rules. Green learnings in authorized themes can be auto-approved; yellow learnings require manual review; red learnings need closer examination. The routes below show where human review remains part of the loop.' },
-  apply: { kicker: '04 / Apply', title: 'Put the lesson where it will be used.', body: 'Approved learnings are merged into dedicated context and skill folders in GitHub, keeping improvements separate, versioned, and easy to reuse. The change history makes iterative updates traceable; skill-specific lessons inform reviewed updates to the skill itself.' },
-  improve: { kicker: '05 / Improve', title: 'Bring better context into the next session.', body: 'Future skill use draws on the updated context and instructions. Recurring audits check drift and stale assumptions; a biweekly efficacy review helps me consolidate or remove skills based on use and useful outcomes.' }
+  review: { kicker: '03 / Review & approve', title: 'Automate selectively. Review where it matters.', body: 'I set which learnings can be applied automatically and which need my review. Approval history informs these rules; it does not establish accuracy.' },
+  apply: { kicker: '04 / Apply', title: 'Put the lesson where it will be used.', body: 'Approved learnings update the relevant context or skill instructions in GitHub. Version history keeps changes traceable and available for future work.' },
+  improve: { kicker: '05 / Improve', title: 'Bring better context into the next session.', body: 'Future skill use draws on the updated context and instructions. Recurring audits check drift and stale assumptions; a review every two weeks helps me consolidate or remove skills based on use and useful outcomes.' }
 };
 const steps = [...document.querySelectorAll('.step')];
 steps.forEach(button => {
