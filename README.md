@@ -32,7 +32,7 @@ Selected recurring, less consequential themes became eligible for auto-approval 
 
 ## October 10, 2026 clarification
 
-The four-dimension monitoring rubric is distinct from learning-approval history and quiz output testing. Fifteen manually scored anchors, historical replay, one-week parallel comparison, and source audits every two weeks are operating practices, without a measured quality uplift or model retraining claim. The corrected 30+ installation count is for the Claude planning skill, shared across roughly 100 people in R&D; the approximately eight-to-two-day result includes shared workflows and engineering collaboration. The 61% result remains a separate team outcome. `soul.md` and Calvin-bot describe generalized working context; no private context files are exposed.
+The four-dimension monitoring rubric is distinct from learning-approval history and quiz output testing. Fifteen manually scored anchors, historical replay, one-week parallel comparison, and source audits every two weeks are operating practices, without a measured quality uplift or model retraining claim. The corrected Claude planning-skill adoption is ~30% of R&D; the approximately eight-to-two-day result includes shared workflows and engineering collaboration. The 61% result remains a separate team outcome. `soul.md` and Calvin-bot describe generalized working context; no private context files are exposed.
 
 ## Portfolio page analytics
 
