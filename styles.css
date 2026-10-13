@@ -131,3 +131,44 @@
 .certification-metric p{font-size:12px;line-height:1.7}
 @media(min-width:701px) and (max-width:1000px){.chapter-nav ol{grid-template-columns:repeat(3,1fr)}.certification-outcomes{grid-template-columns:1fr 1fr}.certification-outcomes-intro{grid-column:1/-1}}
 @media(max-width:700px){.certification-outcomes{grid-template-columns:1fr;gap:20px}.certification-metric strong{font-size:32px}.planning-section{padding-top:24px;padding-bottom:24px}}
+
+/* Hero impact line and trimmed learning-loop summary. Existing colours and type. */
+.hero{row-gap:22px}
+.hero-results{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;list-style:none;margin:0;padding:16px 0 0;border-top:1px solid var(--line)}
+.hero-results li{display:flex;align-items:flex-start;gap:14px;min-width:0}
+.hero-results strong{flex:0 0 auto;font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;letter-spacing:-1px;color:var(--ink)}
+.hero-results strong small{font-family:var(--sans);font-size:15px;letter-spacing:0;margin-left:3px}
+.hero-results strong>span{font-family:var(--sans);font-size:22px;color:#819c89}
+.hero-results p{font-size:13px;line-height:1.45}
+.loop-brief{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;list-style:none;margin:0;padding:0}
+.loop-brief li{background:var(--white);border:1px solid var(--line);border-radius:5px;padding:14px 12px}
+.loop-brief li>span{font-size:11px;font-weight:650;letter-spacing:1px;color:var(--teal)}
+.loop-brief strong{display:block;font-size:16px;margin:8px 0 4px;color:var(--ink)}
+.loop-brief p{font-size:12px;line-height:1.5}
+.loop-caption{text-align:center;font-size:14px;margin:16px 0 4px}
+.how-it-works{border-bottom:1px solid var(--line);padding:18px 0 8px}
+.how-it-works>summary{font-size:12px;font-weight:600}
+.how-it-works .loop-shell{margin-top:16px}
+.certification-outcomes{grid-template-columns:repeat(3,minmax(0,1fr))}
+.certification-outcomes-intro{grid-column:1/-1}
+@media(max-width:1000px){.hero-results{grid-template-columns:1fr}.loop-brief{grid-template-columns:1fr 1fr}.certification-outcomes{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.hero-results{grid-template-columns:1fr}.hero-results li{align-items:flex-start}.loop-brief{grid-template-columns:1fr}.certification-outcomes{grid-template-columns:1fr}}
+
+/* Certification outcome metrics: centred columns. Same colours and families. */
+.certification-outcomes-intro>.eyebrow{font-size:16px}
+.certification-metric{text-align:center}
+.certification-metric strong{font-size:40px;letter-spacing:-.5px}
+.certification-metric strong>small{font-size:.42em;letter-spacing:0;margin-left:4px}
+.certification-metric h3{font-size:18px;margin:12px 0 8px}
+.certification-metric p{font-size:15px;line-height:1.6}
+
+/* Team-impact strip: equal columns, shared number width, descriptions aligned. */
+.hero-impact{grid-column:1/-1;width:min(100%,1080px);margin-inline:auto;padding-top:14px;border-top:1px solid var(--line)}
+.hero-impact>.eyebrow{margin-bottom:12px}
+.hero-results{grid-column:auto;width:100%;margin:0;padding:0;border-top:0;grid-template-columns:repeat(3,minmax(0,1fr));justify-content:center;gap:28px}
+.hero-results li{display:grid;grid-template-columns:152px minmax(0,1fr);column-gap:12px;align-items:start}
+.hero-results strong{justify-self:end;width:auto;text-align:right;white-space:nowrap}
+.hero-results p{margin:0}
+@media(max-width:1000px){.hero-results{grid-template-columns:1fr;gap:16px}.hero-impact{width:100%}}
+@media(max-width:700px){.hero-results{grid-template-columns:1fr}.hero-results li{grid-template-columns:132px minmax(0,1fr)}.certification-metric strong{font-size:34px}}
+@media(max-width:420px){.hero-results li{grid-template-columns:minmax(0,1fr);row-gap:4px}.hero-results strong{justify-self:start;text-align:left;white-space:normal}}
