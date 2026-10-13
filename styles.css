@@ -162,7 +162,7 @@
 .certification-metric h3{font-size:18px;margin:12px 0 8px}
 .certification-metric p{font-size:15px;line-height:1.6}
 
-/* Team-impact strip: centred row. Desktop numbers size to content so the gaps match. */
+/* Team-impact strip: centred row. Desktop uses three equal columns. */
 .hero-impact{grid-column:1/-1;width:min(100%,1080px);margin-inline:auto;padding-top:14px;border-top:1px solid var(--line)}
 .hero-impact>.eyebrow{margin-bottom:12px}
 .hero-results{grid-column:auto;width:100%;margin:0;padding:0;border-top:0;grid-template-columns:repeat(3,minmax(0,1fr));justify-content:center;gap:28px}
@@ -173,8 +173,8 @@
 @media(max-width:700px){.hero-results{grid-template-columns:1fr}.hero-results li{grid-template-columns:132px minmax(0,1fr)}.certification-metric strong{font-size:34px}}
 @media(max-width:420px){.hero-results li{grid-template-columns:minmax(0,1fr);row-gap:4px}.hero-results strong{justify-self:start;text-align:left;white-space:normal}}
 @media(min-width:1001px){
-  .hero-results{display:flex;justify-content:space-between;align-items:flex-start;gap:32px}
-  .hero-results li{display:flex;align-items:flex-start;gap:12px;flex:0 1 auto;width:auto;min-width:0}
+  .hero-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:32px}
+  .hero-results li{display:flex;align-items:flex-start;gap:12px;width:auto;min-width:0}
   .hero-results strong{flex:0 0 auto;width:auto;justify-self:auto;text-align:left}
   .chapter-nav ol{display:flex;justify-content:space-between;align-items:center;gap:16px}
   .chapter-nav li{flex:0 0 auto}
