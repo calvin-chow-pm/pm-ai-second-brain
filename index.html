@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f6f4ee">
   <title>A second brain, built with product judgement — Calvin Chow</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261012-team-impact">
+  <link rel="stylesheet" href="styles.css?v=20261013-equal-cols">
   <script src="script.js?v=20261010-case-study-review" defer></script>
 <script defer src="analytics.js"></script>
 </head>
@@ -38,7 +38,7 @@
         <div class="brain-node"><span class="node-symbol" aria-hidden="true">✳</span><div><strong>A grounded thought partner</strong><small>Challenge · synthesize · design · deliver</small></div></div>
         <div class="vertical-arrow" aria-hidden="true">↓</div>
         <div class="review-node"><span class="review-mark" aria-hidden="true">✓</span><div><strong>I set the approval rules</strong><small>Selective automation. Human review where needed.</small></div></div>
-        <div class="return-line"><span aria-hidden="true">↳</span> Each approved lesson improves the next session. <span aria-hidden="true">↺</span></div>
+        <div class="return-line"><span aria-hidden="true">↳</span> Each approved learning improves the next session. <span aria-hidden="true">↺</span></div>
         <p class="visual-caption">The system continuously learns through use.<br>The judgement stays human.</p>
       </div>
       <div class="hero-impact">
@@ -80,6 +80,7 @@
     <section id="learning" class="system-section section">
       <div class="wrap">
         <div class="section-heading"><div><p class="eyebrow section-label">How the learning loop works</p><h2>Make each reviewed correction<br>useful for the next decision.</h2></div><p>Insights are auto-captured. My approval rules route them through selective automation or manual review. Approved learnings improve future work.</p></div>
+        <div class="loop-cycle">
         <ol class="loop-brief" aria-label="Learning loop">
           <li><span>01</span><strong>Capture</strong><p>Proposed insights from each session.</p></li>
           <li><span>02</span><strong>Review</strong><p>I check what should change.</p></li>
@@ -87,7 +88,9 @@
           <li><span>04</span><strong>Apply</strong><p>Update context and skill instructions.</p></li>
           <li><span>05</span><strong>Audit</strong><p>Check evidence and skill use.</p></li>
         </ol>
-        <p class="loop-caption">Each approved lesson improves the next session.</p>
+        <div class="feedback-path loop-brief-return"><svg viewBox="0 0 1000 42" preserveAspectRatio="none" aria-hidden="true"><path d="M900 0 V25 Q900 34 889 34 H111 Q100 34 100 25 V0"/><path d="m94 9 6-8 6 8"/></svg><span>Each approved learning improves the next session.</span></div>
+        <p class="loop-brief-back">↺ back to Capture</p>
+        </div>
         <details class="how-it-works">
           <summary>How it works <span aria-hidden="true">＋</span></summary>
         <div class="loop-shell">
@@ -99,7 +102,7 @@
             <li><button class="step" aria-pressed="false" aria-controls="step-detail" data-step="apply"><span class="step-icon" aria-hidden="true">↗</span><span class="step-count">04</span><strong>Apply</strong><small>Update context<br>and skill learnings</small></button></li>
             <li><button class="step" aria-pressed="false" aria-controls="step-detail" data-step="improve"><span class="step-icon" aria-hidden="true">✳</span><span class="step-count">05</span><strong>Improve</strong><small>Use better context<br>in future sessions</small></button></li>
           </ol>
-          <div class="feedback-path"><svg viewBox="0 0 1000 42" preserveAspectRatio="none" aria-hidden="true"><path d="M900 0 V25 Q900 34 889 34 H111 Q100 34 100 25 V0"/><path d="m94 9 6-8 6 8"/></svg><span>Each approved lesson improves the next session.</span></div>
+          <div class="feedback-path"><svg viewBox="0 0 1000 42" preserveAspectRatio="none" aria-hidden="true"><path d="M900 0 V25 Q900 34 889 34 H111 Q100 34 100 25 V0"/><path d="m94 9 6-8 6 8"/></svg><span>Each approved learning improves the next session.</span></div>
           <div id="step-detail" class="step-detail" aria-live="polite" aria-atomic="true"><div><p class="eyebrow" id="detail-kicker">01 / Auto-capture</p><h3 id="detail-title">Notice what is worth remembering.</h3></div><p id="detail-body">Each session automatically captures proposed insights: corrections, decisions and their reasoning, recurring assumptions, and relevant constraints. I can also invoke learning capture mid-session.</p></div>
           <div id="approval-detail" class="approval-detail" hidden>
             <p class="eyebrow">My approval rules</p>
@@ -131,7 +134,7 @@
         <div class="certification-metric"><strong>~10% <small>MoM</small></strong><h3>New active certification programs</h3><p>Monthly growth, observed separately.</p></div>
       </div>
       <details class="more-context"><summary>How the evidence shaped the longer-term strategy <span aria-hidden="true">＋</span></summary><p>The initial AI-assisted analysis, using another team’s deep-data input, estimated that 500+ customers used Brillium for assessment features missing from Thinkific. Its proxy included non-paying and churned customers. My Second Brain surfaced the data gap; validation put the relevant cohort closer to 100, approximately 80% smaller. This corrected a customer cohort, not the entire credentialing market.</p><p>The original case focused on customers consolidating assessment spend onto our platform through an add-on. I broadened the thesis to retention, sales acquisition, and Plus differentiation alongside switching revenue. I defined a direction that brought end-to-end professional credentialing workflows together, saved customers time, and retained more data in-platform to understand their needs and surface useful learner and program insights.</p><p>I interpreted the findings and set the growth and monetization direction. Subsequent customer validation and ROI analysis informed the uncapped recertification recommendation and executive alignment, freeing 4+ engineer-weeks for API monetization.</p></details>
-      <details class="more-context"><summary>Delivered insights and the next steps <span aria-hidden="true">＋</span></summary><p>I defined the customer segments, jobs, requirements, prototype, and success measures for the advanced dashboard, which Analytics implemented. The dashboard already consumed credentialing data and surfaced program health, recertification, and recurring-revenue opportunities to help professional customers shape their programs and businesses.</p><p>A contextual analytics link shipped through my connected agent workflow. Click-through among certification users with dashboard access rose from 10% to 35% within two weeks of release. This observation is separate from the program-creation outcomes above and does not establish that the link caused program growth or increased customer revenue.</p><p><a class="workflow-demo-link" href="https://calvin-chow-pm.github.io/" target="_blank" rel="noopener noreferrer">Explore the Agentic Product Workflow demo <span aria-hidden="true">↗</span></a> for the implementation process.</p><p>The longer-term strategy connected cohesive workflows and richer in-platform data with useful customer insights and monetization as customers scale. Personalized learner experiences and value-aligned limits remained future directions, without measured revenue or retention effects.</p></details>
+      <details class="more-context"><summary>Delivered insights and the next steps <span aria-hidden="true">＋</span></summary><p>I defined the customer segments, jobs, requirements, prototype, and success measures for the advanced dashboard, which Analytics implemented. The dashboard already consumed credentialing data and surfaced program health, recertification, and recurring-revenue opportunities to help professional customers shape their programs and businesses.</p><p>A contextual analytics link shipped through my connected agent workflow. The share of certification admins using analytics rose from 10% to 35% within two weeks of release. This observation is separate from the program-creation outcomes above and does not establish that the link caused program growth or increased customer revenue.</p><p><a class="workflow-demo-link" href="https://calvin-chow-pm.github.io/" target="_blank" rel="noopener noreferrer">Explore the Agentic Product Workflow demo <span aria-hidden="true">↗</span></a> for the implementation process.</p><p>The longer-term strategy connected cohesive workflows and richer in-platform data with useful customer insights and monetization as customers scale. Personalized learner experiences and value-aligned limits remained future directions, without measured revenue or retention effects.</p></details>
     </section>
     <section id="planning-skill" class="wrap section planning-section">
       <div class="section-heading"><div><p class="eyebrow section-label">From personal system to team enablement</p><h2>A planning skill ~30% of R&amp;D installed</h2></div><p>Alongside another PM leading AI experimentation, I tested tools, shared useful workflows, and led product-wide adoption. One example was a reusable planning skill, among our first widely adopted skills.</p></div>
@@ -144,7 +147,7 @@
       <article><p class="outcome-label">Team delivery</p><div class="big-metric">61<small>%</small></div><h3>Shorter story cycle time</h3><p>From ~8 to ~3 days across the team. AI workflow adoption and engineering iteration contributed alongside milestone ownership and value slicing.</p></article>
       <article><p class="outcome-label">Planning skill adoption</p><div class="big-metric">~30<small>%</small></div><h3>of R&amp;D</h3><p>~30% of R&amp;D installed and used the planning skill in different capacities.</p></article></div>
     </div></section>
-    <section class="wrap section closing-section"><div><p class="eyebrow section-label">What I learned</p><h2>Simplifying 18 skills down to ~10 that earned their place</h2><p>As AI tools became more capable, some custom skills stopped earning their place. Reviewing actual usage and useful outcomes helped me consolidate the system around what mattered.</p></div><div class="simplification"><div><span>A small initial set</span><strong>5</strong><small>skills</small></div><span class="mini-arrow" aria-hidden="true">→</span><div><span>Expanded through use</span><strong>18</strong><small>skills</small></div><span class="mini-arrow" aria-hidden="true">→</span><div class="final-count"><span>Consolidated for value</span><strong>~10</strong><small>core skills</small></div><p>Build → observe → learn → simplify</p></div></section>
+    <section class="wrap section closing-section"><div><p class="eyebrow section-label">What I learned</p><h2>As models improved, fewer skills did more</h2><p>As AI tools became more capable, some custom skills stopped earning their place. Each extra skill and process step also added cognitive load for me and for teammates choosing which one to use. Reviewing actual usage and outcomes helped me cut the system down to the skills people relied on.</p></div><div class="simplification"><div><span>A small initial set</span><strong>5</strong><small>skills</small></div><span class="mini-arrow" aria-hidden="true">→</span><div><span>Expanded through use</span><strong>18</strong><small>skills</small></div><span class="mini-arrow" aria-hidden="true">→</span><div class="final-count"><span>Consolidated for value</span><strong>~10</strong><small>core skills</small></div><p>Build → observe → learn → simplify</p></div></section>
     <section class="wrap agent-team-handoff" aria-labelledby="agent-team-heading"><div><p class="eyebrow">Explore the connected workflow</p><h2 id="agent-team-heading">The AI agent team powered by this Second Brain</h2><p>See how its context, memory, and reviewed learning support evidence evaluation and product delivery.</p></div><a class="button" href="https://calvin-chow-pm.github.io/workflow/">Explore the agent team <span aria-hidden="true">→</span></a></section>
   </main>
   <footer class="wrap site-footer"><div><strong>Calvin Chow</strong></div><p>Reconstructed diagrams; company and customer details generalized.</p><a href="#top">Back to top ↑</a></footer>
